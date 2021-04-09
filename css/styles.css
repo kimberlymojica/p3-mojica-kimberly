@@ -1,3 +1,7 @@
+@@font-face {
+  font-family: 'sewstain';
+  src: url('../fonts/sewstain..otf') format('truetype');
+}
 /*----------------------------------------------
 
 -------------------------------------------------*/
@@ -51,31 +55,38 @@ Body
 -------------------------------------------------*/
 
 .container {
-  width: auto;
-  height: 1500px;
+  width: 1350px;
+  height: auto;
   background-color: pink;
-  margin: 0px aut0;
+  margin: 0px auto;
+  position: absolute;
 }
 
 h1 {
-  margin: 50px 400px;
+  font-family: 'sewstain',cursive;
+  font-size: 38px;
+  text-shadow: 1px 1px 2px white, 0 0 1em grey, 0 0 0.2em grey;
+  margin: 50px 0;
   width: 200px;
   float: right;
   color: black;
+  padding: 0 370px;
+}
+
+h2 {
+  font-family: 'sewstain',cursive;
+  font-size: 80px;
+  text-shadow: 1px 1px 2px white, 0 0 1em grey, 0 0 0.2em pink;
+  width: 400px;
+  margin: 0 550px;
+  color: white;
+  padding: 15px 0 0;
 }
 
 .about {
   background-color: black;
-  width: 800px;
-  height: 150px;
-  padding: 200px 0 0 20px;
-
-
-}
-
-h2 {
-  width: 400px;
-  margin: 0 650px;
-  color: white;
+  margin: 400px 0 0 0;
+  width: auto;
+  height: 500px;
 
 }
