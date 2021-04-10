@@ -46,8 +46,20 @@ header nav a{
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
   margin: -5px;
+  font-weight: bold;
 }
 
+nav a:visited {
+  color: #77917B;
+}
+
+nav a:hover {
+  color: #97636D;
+}
+
+nav a:active {
+  color: #D0ABAE;
+}
 /*----------------------------------------------
 
 Body
@@ -64,9 +76,9 @@ Body
 
 h1 {
   font-family: 'sewstain',cursive;
-  font-size: 38px;
+  font-size: 46px;
   text-shadow: 1px 1px 2px white, 0 0 1em grey, 0 0 0.2em grey;
-  margin: 50px 0;
+  margin: 50px 25px;
   width: 200px;
   float: right;
   color: black;
@@ -87,6 +99,40 @@ h2 {
   background-color: black;
   margin: 400px 0 0 0;
   width: auto;
-  height: 500px;
+  height: 250px;
+}
 
+.bio {
+  color: white;
+  width: 700px;
+  float: left;
+  margin: 0 0 0 320px;
+  line-height: 1.5;
+}
+
+.makeup-gurus{
+  background-color: #77917B;
+  height: 200px;
+  width: auto;
+  margin: 50px 0 0 0;
+}
+
+.guru {
+  float: left;
+  width: 300px;
+  font-size: 16px;
+  margin: 50px 0 0 400px;
+  text-shadow: 1px 1px 2px grey, 0 0 1em grey, 0 0 0.2em grey;
+}
+
+/*======================================================
+
+footer
+
+======================================================*/
+
+.end {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
