@@ -145,16 +145,96 @@ Eyes Body
 Lips
 
 ======================================================*/
-
-.bubblegum{
-  margin: 50px 0 0 200px;
-  float: left;
+h4{
+  text-decoration: underline;
+  font-stretch: semi-expanded;
+  font-family: 'sewstain', cursive;
+  font-size: 24px;
+}
+.badapple {
+  width: 300px;
+  text-align: center;
+  padding: 10px 0 0;
 }
 
-.royalty{
-  margin: 0 0 0 600px;
-  padding: 45px 0 0 ;
+.badapplelippie{
+padding: 10px 20px 0 20px;
+margin: 0px -50px 0 200px;
 }
+
+.block {
+  display: block;
+  width: 150px;
+  background-color: #E2A8aF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0px 10px 0 300px;
+  font-weight: bold;
+
+}
+
+.block a{
+  text-decoration: none;
+  color: #000;
+}
+
+.mood{
+  width: 300px;
+  text-align: center;
+  padding: 10px 0 0;
+
+}
+.moodlippie{
+margin: -480px 100px 0 550px;
+}
+
+.moody {
+  display: block;
+  width: 150px;
+  background-color: #E2A8aF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0px 10px 0 620px;
+  font-weight: bold;
+
+}
+
+.moody a{
+  text-decoration: none;
+  color: #000;
+}
+
+.playful{
+  width: 300px;
+  text-align: center;
+  padding: 10px 0 0;
+}
+.playfullippie{
+  margin: -480px 100px 0 880px;
+}
+
+.play {
+  display: block;
+  width: 150px;
+  background-color: #E2A8aF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0px 10px 0 950px;
+  font-weight: bold;
+
+}
+
+.play a{
+  text-decoration: none;
+  color: #000;
+}
+
 /*======================================================
 
 footer
