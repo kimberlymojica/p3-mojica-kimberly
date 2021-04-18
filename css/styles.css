@@ -237,6 +237,103 @@ margin: -480px 100px 0 550px;
 
 /*======================================================
 
+Eyes index
+
+======================================================*/
+
+.gem{
+  margin: 0 240px 0 200px;
+}
+
+.gem {
+  width: 300px;
+  text-align: center;
+  padding: 10px 0 0;
+}
+
+.gemblock {
+  display: block;
+  width: 150px;
+  background-color: #E2A8aF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0px 10px 0 280px;
+  font-weight: bold;
+
+}
+
+.gemblock a{
+  text-decoration: none;
+  color: #000;
+}
+
+.waves{
+  margin: -435px 100px 0 550px;
+}
+
+.wave {
+  width: 300px;
+  text-align: center;
+
+
+}
+.wave h4 {
+  margin: 0 200px 0 100px;
+}
+
+.waveblock {
+  display: block;
+  width: 150px;
+  background-color: #E2A8aF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0px 10px 0 620px;
+  font-weight: bold;
+
+}
+
+.waveblock a{
+  text-decoration: none;
+  color: #000;
+}
+
+.bloodlust{
+  margin: -440px 800px 0 900px;
+
+}
+
+.blood{
+  width: 300px;
+  text-align: center;
+
+}
+.bloodlust h4{
+  margin: 0 200px 0 80px;
+}
+
+.bloodblock {
+  display: block;
+  width: 150px;
+  background-color: #E2A8aF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: -70px 0 0 970px;
+  font-weight: bold;
+
+}
+
+.bloodblock a{
+  text-decoration: none;
+  color: #000;
+}
+/*======================================================
+
 footer
 
 ======================================================*/
