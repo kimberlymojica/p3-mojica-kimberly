@@ -411,6 +411,54 @@ Eyes index
 Contact Page
 
 ======================================================*/
+h5{
+  font-family: 'sewstain', cursive;
+  font-size: 50px;
+    text-shadow: 1px 1px 2px white, 0 0 1em grey, 0 0 0.2em pink;
+    color: #77917B;
+    text-align: center;
+    padding: 10px 0 0;
+    background-color: black;
+}
+
+.contact-form{
+  background: black;
+  padding: 20px;
+  color: white;
+  border-radius: 4px;
+  height: 500px;
+}
+
+.creator{
+  margin: -475px 200px 0 700px;
+}
+
+.label_input_wrap{
+  display: block;
+}
+
+.submit input{
+ background: pink;
+ padding: 5px 20px;
+ display: inline;
+ margin: 10px 10px 0 125px;
+ font-size: 16px;
+}
+
+.input-section{
+  margin: 20px 50px 5px 100px;
+
+}
+input{
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+textarea{
+  padding: 10px 10px;
+}
+
 
 /*======================================================
 
