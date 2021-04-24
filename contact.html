@@ -27,7 +27,10 @@
 <body>
   <div class="bg">
     <h5>Comments, Questions, or Concerns?</h5>
-  <form class="contact-form" name="firstform" action="" method="post">
+
+  <form class="contact-form" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+
+    
   <div class="first-name input-section">
     <label for="firstname" class="label_input_wrap">First Name:</label>
     <input type="text" name="firstname" id="firstname" placeholder="ex. Jane" value="">
