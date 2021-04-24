@@ -1,4 +1,4 @@
-<style type="text/css" >
+<style type="text/css">
 
 *{
   padding: 0;
@@ -54,34 +54,54 @@ nav a:hover {
 nav a:active {
   color: #D0ABAE;
 }
+
+p{
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
 /*----------------------------------------------
 
 Index Body
 
 -------------------------------------------------*/
 
-.container {
-  width: 1350px;
-  height: auto;
-  background-color: pink;
-  margin: 0px auto;
-  position: absolute;
+h5{
+  font-family: 'sewstain', cursive;
+  font-size: 48px;
+  text-align: center;
+  margin: 20px 0 0;
 }
 
-h1 {
-  font-family: 'sewstain',cursive;
-  font-size: 46px;
-  text-shadow: 1px 1px 2px white, 0 0 1em grey, 0 0 0.2em grey;
-  margin: 50px 25px;
-  width: 200px;
-  float: right;
-  color: black;
-  padding: 0 370px;
-}
+.contain{
+  width: 1370px;
+  height: 490px;
+  background: pink;
 
+}
 </style>
 
-<div class="container"
-<h1>Whoops! Something went wrong...</h1>
-<p>Please try again.</a>.</p>
+<body>
+
+<div id="logo">
+ <img src="images/logo.png" alt="logo" />
 </div>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="lips.html">LIPS</a></li>
+      <li><a href="eyes.html">EYES</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+ <div class="contain">
+  <h5>Whoops! Something went wrong...</h5>
+  <p>Please try again.</a></p>
+</div>
+
+</body>

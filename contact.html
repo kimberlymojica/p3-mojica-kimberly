@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Contact</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon"  type="image/ico" href="images/favicon.ico">
+    <link rel="icon" type="img/png" href="images/favicon.png">
   </head>
   <body>
       <div id="logo">
@@ -22,7 +24,7 @@
       </header>
 
       <main>
-        <section?
+        <section>
         <div class="bg">
 
           <h3>Comments, Questions or Concerns?</h3>
@@ -36,26 +38,26 @@
 
         </div>
 
-      <form id="test_form" form class="contact-form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+      <form id="test_form" form class="contact-form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
 
         <div class="first-name input_section">
           <label for="firstname" class="label_input_wrap">First Name:</label>
-          <input type="text" name="firstname" id="firstname" placeholder="ex.Jane" />
+          <input type="text" name="req_firstname" id="firstname" placeholder="ex.Jane" />
         </div>
 
         <div class="last-name input_section">
           <label for="lastname" class="label_input_wrap">Last Name:</label>
-          <input type="text" name="lastname" id="lastname" placeholder="ex.Doe" />
+          <input type="text" name="req_lastname" id="lastname" placeholder="ex.Doe" />
         </div>
 
         <div class="email input_section">
           <label for="email" class="label_input_wrap">Email:</label>
-          <input type="email" name="email" id="email" placeholder="janedoe@example.com" />
+          <input type="email" name="req_email" id="email" placeholder="janedoe@example.com" />
         </div>
 
         <div class="comments input_section">
           <label for="comments" class="label_input_wrap">Comments:</label>
-          <textarea name="comments" id="comments" rows="8" cols="50" placeholder="Your Enquiries Here"></textarea>
+          <textarea name="req_comments" id="comments" rows="8" cols="50" placeholder="Your Enquiries Here"></textarea>
         </div>
 
           <div class="submit input_section">

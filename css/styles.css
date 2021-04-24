@@ -49,15 +49,15 @@ header nav a{
   font-weight: bold;
 }
 
-nav a:visited {
+header nav a:visited {
   color: #77917B;
 }
 
-nav a:hover {
+header nav a:hover {
   color: #97636D;
 }
 
-nav a:active {
+header nav a:active {
   color: #D0ABAE;
 }
 /*----------------------------------------------
@@ -95,9 +95,59 @@ h2 {
   padding: 15px 0 0;
 }
 
+.products{
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin: 0px 200px 20px 250px;
+
+}
+
+.look{
+  margin: -450px 25px 0 150px;
+  float: right;
+}
+
+.look p{
+  float: right;
+  margin: 20px 400px 0 30px;
+  font-size: 20px;
+}
+
+.look p::before{
+  content: "\2764";
+
+}
+
+.look p::after{
+  content: "\2764";
+}
+
+.lookblock{
+  display: block;
+  float: right;
+  width: 150px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 420px 0 10px;
+  border-radius: 20px;
+  background-color: #77917B;
+  text-transform: uppercase;
+}
+
+.lookblock a{
+  text-decoration: none;
+}
+
+.lookblock a:hover{
+  color: #719675;
+}
 .about {
   background-color: black;
-  margin: 400px 0 0 0;
+  margin: 420px 0 0 0;
   width: auto;
   height: 250px;
 }
@@ -125,6 +175,28 @@ h2 {
   text-shadow: 1px 1px 2px grey, 0 0 1em grey, 0 0 0.2em grey;
 }
 
+.gurusblock{
+  float: left;
+  display: block;
+  width: 150px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #97636D;
+  text-transform: uppercase;
+  margin: 10px 500px 0 510px;
+}
+
+.gurusblock a{
+  text-decoration: none;
+}
+
+.gurusblock a:hover{
+  color: #719675;
+}
 /*----------------------------------------------
 
 Eyes Body
@@ -356,6 +428,18 @@ h3{
   padding: 15px 0 0;
   margin: 0 100px 0 450px;
 }
+
+h3::before{
+  content: "\2764";
+
+}
+
+h3::after{
+  content: "\2764";
+
+}
+
+
 .contact-form{
   width: 650px;
   color: white;
