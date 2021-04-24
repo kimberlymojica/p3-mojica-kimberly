@@ -103,7 +103,7 @@ h2 {
 
 }
 
-.look{
+.look {
   margin: -450px 25px 0 150px;
   float: right;
 }
@@ -217,19 +217,20 @@ Eyes Body
 Lips
 
 ======================================================*/
-h4{
+h4 {
   text-decoration: underline;
   font-stretch: semi-expanded;
   font-family: 'sewstain', cursive;
   font-size: 24px;
 }
+
 .badapple {
   width: 300px;
   text-align: center;
   padding: 10px 0 0;
 }
 
-.badapplelippie{
+.badapplelippie {
 padding: 10px 20px 0 20px;
 margin: 0px -50px 0 200px;
 }
@@ -252,13 +253,13 @@ margin: 0px -50px 0 200px;
   color: #000;
 }
 
-.mood{
+.mood {
   width: 300px;
   text-align: center;
   padding: 10px 0 0;
 
 }
-.moodlippie{
+.moodlippie {
 margin: -480px 100px 0 550px;
 }
 
@@ -285,7 +286,7 @@ margin: -480px 100px 0 550px;
   text-align: center;
   padding: 10px 0 0;
 }
-.playfullippie{
+.playfullippie {
   margin: -480px 100px 0 880px;
 }
 
@@ -313,7 +314,7 @@ Eyes index
 
 ======================================================*/
 
-.gem{
+.gem {
   margin: 0 240px 0 200px;
 }
 
@@ -341,7 +342,7 @@ Eyes index
   color: #000;
 }
 
-.waves{
+.waves {
   margin: -435px 100px 0 550px;
 }
 
@@ -443,7 +444,7 @@ h3::after{
 .contact-form{
   width: 650px;
   color: white;
-  margin: -300px 20px 0 100px;
+  margin: 100px 20px 0 100px;
   font-size: 16px;
   font-size: 24px;
 
