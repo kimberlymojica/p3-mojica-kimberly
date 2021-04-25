@@ -152,6 +152,7 @@ h2 {
   height: 250px;
 }
 
+
 .bio {
   color: white;
   width: 700px;
@@ -440,8 +441,29 @@ h5::after{
   height: 500px;
 }
 
-.creator{
+figure{
   margin: -470px 200px 0 700px;
+  animation-name: slide;
+  animation-duration: 3s;
+}
+
+@keyframes slide {
+  from{
+    transform: translateX(-200px);
+  }
+
+  to{
+    transform: translateZ\X(200px);
+  }
+}
+
+figcaption{
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  margin: 0 50px 0 600px;
 }
 
 .label_input_wrap{
