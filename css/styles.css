@@ -160,9 +160,12 @@ h2 {
   line-height: 1.5;
 }
 
-.makeup-gurus{
+.gallery{
+  margin: -140px 0 0 700px;
+}
+.makeup-gurus {
   background-color: #77917B;
-  height: 400px;
+  height: 300px;
   width: auto;
   margin: 10px 0 0 0;
 }
@@ -171,7 +174,7 @@ h2 {
 .guru {
   width: 300px;
   font-size: 16px;
-  margin: 20px 0 0 50px;
+  margin: 20px 0 0 300px;
   text-shadow: 1px 1px 2px grey, 0 0 1em grey, 0 0 0.2em grey;
   padding: 10px 0 0;
 }
@@ -187,7 +190,7 @@ h2 {
   border-radius: 20px;
   background-color: #97636D;
   text-transform: uppercase;
-  margin: 10px 450px 0 130px;
+  margin: 10px 450px 0 430px;
 }
 
 .gurusblock a{
