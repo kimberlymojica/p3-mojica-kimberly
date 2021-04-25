@@ -57,19 +57,51 @@ header nav a:hover {
 header nav a:active {
   color: #D0ABAE;
 }
+
 .contain{
+  background-color: pink;
+  height: 550px;
+  width: auto;
 
 }
+
+h5{
+  font-family: 'sewstain',cursive;
+    text-shadow: 1px 1px 2px white, 0 0 1em grey, 0 0 0.2em pink;
+    text-align: center;
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+footer{
+  margin: 280px 0 0;
+}
+
 </style>
 
 <div id="logo">
  <img src="images/logo.png" alt="logo" />
 </div>
 
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="lips.html">LIPS</a></li>
+      <li><a href="eyes.html">EYES</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
 <div class="contain">
 
 
-<h1>Missing fields</h1>
+<h5>Missing fields</h5>
 <p>Sorry, you have not completed all of the required fields.</p>
 <p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
 
@@ -82,5 +114,17 @@ header nav a:active {
 </ul>
 
 <p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
+
+<footer>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="lips.html">LIPS</a></li>
+      <li><a href="eyes.html">EYES</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+  @2021 Kimberly Mojica
+</footer>
 
 </div>

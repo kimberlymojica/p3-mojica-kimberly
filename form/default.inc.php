@@ -57,14 +57,28 @@ header nav a:hover {
 header nav a:active {
   color: #D0ABAE;
 }
+
 .contain{
-  background-color: black;
+  background-color: pink;
+  height: 550px;
+  width: auto;
 
 }
 
 h5{
   font-family: 'sewstain',cursive;
-  color:white;
+    text-shadow: 1px 1px 2px white, 0 0 1em grey, 0 0 0.2em pink;
+    text-align: center;
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+footer{
+  margin: 280px 0 0;
 }
 </style>
 
@@ -87,4 +101,17 @@ h5{
 
 <h5>Whoops! Something Went Wrong...</h5>
 <p>Please try again.</p>
+
+<footer>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="lips.html">LIPS</a></li>
+      <li><a href="eyes.html">EYES</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+  @2021 Kimberly Mojica
+</footer>
+
 </div>

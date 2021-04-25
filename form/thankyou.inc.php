@@ -57,8 +57,28 @@ header nav a:hover {
 header nav a:active {
   color: #D0ABAE;
 }
-.contain{
 
+.contain{
+  background-color: pink;
+  height: 550px;
+  width: auto;
+
+}
+
+h5{
+  font-family: 'sewstain',cursive;
+    text-shadow: 1px 1px 2px white, 0 0 1em grey, 0 0 0.2em pink;
+    text-align: center;
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+footer{
+  margin: 280px 0 0;
 }
 </style>
 
@@ -66,10 +86,21 @@ header nav a:active {
  <img src="images/logo.png" alt="logo" />
 </div>
 
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="lips.html">LIPS</a></li>
+      <li><a href="eyes.html">EYES</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
 <div class="contain">
 
 
-<h1>Thank you for your enquiry</h1>
+<h5>Thank you for your enquiry</h5>
 <p>We'll reach back to you shortly.</p>
 
 </div>
