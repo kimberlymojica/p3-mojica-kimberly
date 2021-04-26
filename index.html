@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0FHRTLVV5B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0FHRTLVV5B');
+</script>
+
     <meta charset="utf-8">
+    <meta name="keywords" content=" makeup, eyeshadow, lipstick, products, cosmetics, budget friendly, local, california, covina, pink, red, blue, pueple, natural, mauve, glam, neutral, beauty, safe, american," />
+    <meta name="description" content="High qaulity cosmetics at an affordable price. Cruelty-free, locally made and handcrafted." />
+
     <title>Home</title>
 
     <!-- favicon -->
@@ -32,17 +46,22 @@
     </header>
 
     <main>
+
    <div class="container">
 
   <section>
     <div class="products">
-      <img src="images/getthelook.png" alt="Products" width="300px" height="400px">
-
+      <img src="images/getthelook.png" alt="Products" title="Sample Products" width="300" height="400" />
     </div>
+
     <div class="look">
     <h1>Get the Look</h1>
      <p>Shop this look here</p>
-     <button class="lookblock"><a href="contact.html">Glow up here</a></button>
+
+       <div class="lookblock">
+         <a href="contact.html">Enquire more</a>
+       </div>
+   </div>
   </section>
 
   <section>
@@ -56,14 +75,18 @@
 
     <div class="makeup-gurus">
       <p class="guru">Curious about future products or questions on your recent order? Contact us here for more information:</p>
-      <button class="gurusblock"><a href="contact.html">Enquire more</a></button>
+
+      <div class="gurusblock">
+      <a href="contact.html">Enquire more</a>
+    </div>
 
       <div class="gallery">
-        <a href="images/gemlook.png" data-lightbox="image-1" data-title="Gem Shadow Swatch"><img src="images/gemlook.png" alt="Gem Look" width="300px" height="300px" /></a>
-       <a href="images/waveslook.png" data-lightbox="image-1" data-title="Waves Shadow Swatch"><img src="images/waveslook.png" alt="Waves Look" width="300px" height="300px" /></a>
+        <a href="images/gemlook.png" data-lightbox="image-1" data-title="Gem Shadow Swatch"><img src="images/gemlook.png" title="Gem Shadow Swatch" alt="Gem Look" width="300" height="300" /></a>
+       <a href="images/waveslook.png" data-lightbox="image-1" data-title="Waves Shadow Swatch"><img src="images/waveslook.png" title="Waves Shadow Look" alt="Waves Look" width="300" height="300" /></a>
       </div>
 
     </div>
+  </section>
 
 <section>
   <footer>
@@ -79,9 +102,8 @@
   </footer>
 </section>
 
-    </main>
-   </div>
-
+</div>
+   </main>
    <script src="lightbox/src/js/lightbox.js"></script>
   </body>
 </html>

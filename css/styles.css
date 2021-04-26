@@ -99,7 +99,7 @@ h2 {
   width: 300px;
   height: 400px;
   float: left;
-  margin: 0px 200px 20px 250px;
+  margin: 10px 200px 20px 250px;
 
 }
 
@@ -132,7 +132,7 @@ h2 {
   cursor: pointer;
   text-align: center;
   font-weight: bold;
-  margin: 20px 420px 0 10px;
+  margin: 60px -240px 0 10px;
   border-radius: 20px;
   background-color: #77917B;
   text-transform: uppercase;
@@ -162,13 +162,14 @@ h2 {
 }
 
 .gallery{
-  margin: -140px 0 0 700px;
+  margin: -170px 0 0 700px;
 }
 .makeup-gurus {
   background-color: #77917B;
   height: 300px;
   width: auto;
-  margin: 10px 0 0 0;
+  margin: 30px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 
@@ -191,7 +192,8 @@ h2 {
   border-radius: 20px;
   background-color: #97636D;
   text-transform: uppercase;
-  margin: 10px 450px 0 430px;
+  margin: 30px 450px 0 330px;
+  border-radius: 20px;
 }
 
 .gurusblock a{
@@ -247,14 +249,19 @@ margin: 10px -50px 0 200px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
-  margin: 0px 10px 50px 300px;
+  margin: 0px 10px 50px 280px;
   font-weight: bold;
+  border-radius: 20px;
 
 }
 
 .block a{
   text-decoration: none;
   color: #000;
+}
+
+.block a:hover{
+  color: #719675;
 }
 
 .mood {
@@ -264,7 +271,7 @@ margin: 10px -50px 0 200px;
 
 }
 .moodlippie {
-margin: -530px 100px 0 550px;
+margin: -515px 100px 0 550px;
 }
 
 .moody {
@@ -277,6 +284,7 @@ margin: -530px 100px 0 550px;
   text-align: center;
   margin: 0px 10px 50px 620px;
   font-weight: bold;
+  border-radius: 20px;
 
 }
 
@@ -285,13 +293,16 @@ margin: -530px 100px 0 550px;
   color: #000;
 }
 
+.moody a:hover{
+  color: #719675;
+}
 .playful{
   width: 300px;
   text-align: center;
   padding: 10px 0 0;
 }
 .playfullippie {
-  margin: -530px 100px 0px 880px;
+  margin: -515px 100px 0px 880px;
 }
 
 .play {
@@ -304,6 +315,7 @@ margin: -530px 100px 0 550px;
   text-align: center;
   margin: 20px 10px 50px 950px;
   font-weight: bold;
+  border-radius: 20px;
 
 }
 
@@ -312,6 +324,9 @@ margin: -530px 100px 0 550px;
   color: #000;
 }
 
+.play a:hover{
+  color: #719675;
+}
 /*======================================================
 
 Eyes index
@@ -336,8 +351,9 @@ Eyes index
   font-size: 16px;
   cursor: pointer;
   text-align: center;
-  margin: 0px 10px 0 280px;
+  margin: 0px 10px 0 250px;
   font-weight: bold;
+  border-radius: 20px;
 
 }
 
@@ -346,8 +362,12 @@ Eyes index
   color: #000;
 }
 
+.gemblock a:hover{
+  color: #719675;
+}
+
 .waves {
-  margin: -435px 100px 0 550px;
+  margin: -415px 100px 0 550px;
 }
 
 .wave {
@@ -368,8 +388,9 @@ Eyes index
   font-size: 16px;
   cursor: pointer;
   text-align: center;
-  margin: 0px 10px 0 620px;
+  margin: 0px 10px 0 590px;
   font-weight: bold;
+  border-radius: 20px;
 
 }
 
@@ -378,8 +399,11 @@ Eyes index
   color: #000;
 }
 
+.waveblock a:hover{
+  color: #719675;
+}
 .bloodlust{
-  margin: -440px 800px 0 900px;
+  margin: -420px 800px 0 900px;
 
 }
 
@@ -400,8 +424,9 @@ Eyes index
   font-size: 16px;
   cursor: pointer;
   text-align: center;
-  margin: -70px 0 0 970px;
+  margin: 0 10px 0px 950px;
   font-weight: bold;
+  border-radius: 20px;
 
 }
 
@@ -466,6 +491,24 @@ figcaption{
   margin: 0 50px 0 600px;
 }
 
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pic:hover .overlay{
+  opacity: 1;
+}
 .label_input_wrap{
   display: block;
 }
